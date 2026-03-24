@@ -1,46 +1,36 @@
-````markdown
-# 📊 Data Analysis & Visualization Tool
+```markdown
+# 📊 Data Analysis & Visualization Project
 
-A premium, interactive console-based application designed to seamlessly explore, clean, analyze, and visualize datasets. Built entirely in Python, this tool provides a user-friendly menu interface to perform complex pandas operations and generate insightful matplotlib/seaborn charts on the fly.
-
----
-
-## ✨ Key Features
-
-- **📂 Easy Data Loading**: Quickly load any CSV dataset (e.g., `movie_metadata.csv`) directly into the analyzer.
-- **🔍 Data Exploration**: Instantly view the first/last few rows, inspect column names, check data types, and get a comprehensive data overview.
-- **🧮 DataFrame Operations**: Perform rapid mathematical operations, split datasets, and combine dataframes effortlessly.
-- **🧹 Smart Data Cleaning**: Detect missing values and handle them smoothly by filling with means, dropping rows, or replacing them with custom values.
-- **📈 Statistical Analysis**: Generate descriptive statistics, calculate standard deviations, variances, and precise aggregate metrics.
-- **🎨 Advanced Visualizations**: Create dynamic, modern charts based on your data:
-  - 📊 Bar Plots
-  - 📉 Line Plots
-  - 🔵 Scatter Plots
-  - 🥧 Pie Charts
-  - 📊 Histograms
-  - 📈 Stack Plots
-- **💾 Export Capabilities**: Save your generated visual insights directly as standard image files (e.g., `bar_chart.png`) for external use.
+🚀 A simple **Python-based Data Analysis CLI Tool** that allows users to load datasets, explore data, perform operations, handle missing values, generate statistics, and create visualizations.
 
 ---
 
-## 💻 Tech Stack
+## ✨ Features
 
-- **Python 3.x**: Core application logic.
-- **Pandas**: For robust data manipulation and cleaning operations.
-- **NumPy**: Used for efficient numerical computations.
-- **Matplotlib & Seaborn**: For rendering high-quality, aesthetic data visualizations.
-- **Jupyter Notebook**: Primary development environment (`Project9.ipynb`).
+🔹 Load CSV Dataset  
+🔹 Explore Data (head, tail, columns, info)  
+🔹 Perform DataFrame Operations (sum, mean, max, min)  
+🔹 Handle Missing Data  
+🔹 Generate Statistics  
+🔹 Create Visualizations 📈  
+🔹 Save Visualizations as Image  
 
 ---
 
-## 📁 Folder Structure
+## 🛠️ Technologies Used
 
-```text
-Project 9/
-│
-├── .git/                     # Git version control
-├── .ipynb_checkpoints/       # Jupyter auto-saves
-├── Screenshots/              # Directory containing project execution captures
+- 🐍 Python  
+- 📦 Pandas  
+- 📊 Matplotlib  
+
+---
+
+## 📂 Project Structure
+
+```
+
+Project9/
+│── Screenshots/
 │   ├── s1.png
 │   ├── s2.png
 │   ├── s3.png
@@ -48,98 +38,105 @@ Project 9/
 │   ├── s5.png
 │   ├── s6.png
 │   ├── s7.png
-│   └── s8.png
-├── bar_chart.png             # Example exported visualization
-├── movie_metadata.csv        # Sample dataset used for analysis
-├── Project9.ipynb            # Main source code notebook
-└── README.md                 # Project documentation
-```
+│
+│── movie_metadata.csv
+│── bar_chart.png
+│── Project9.py
+│── README.md
+
 ````
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run the Project
 
-1.  Make sure you have Python installed along with the required libraries:
-    ```bash
-    pip install numpy pandas matplotlib seaborn
-    ```
-2.  Open the `Project9.ipynb` file in Jupyter Notebook or JupyterLab.
-3.  Run all the cells.
-4.  Interact with the console menu directly to start analyzing your data\!
+1️⃣ Open terminal / VS Code  
+2️⃣ Navigate to project folder  
+3️⃣ Run the program:
 
----
+```bash
+python Project9.py
+````
 
-## 📸 Application Gallery
-
-Here is a step-by-step look at the tool in action:
-
-### 1\. Main Menu & Loading Data
-
-> Simple and intuitive console menu to navigate through various data operations.
-
-\<p align="center"\>
-\<img src="Screenshots/s1.png" alt="Main Menu" width="800"\>
-\</p\>
-
-### 2\. Exploring Data
-
-> Quickly reviewing the structure and contents of the dataset.
-
-\<p align="center"\>
-\<img src="Screenshots/s2.png" alt="Data Exploration" width="800"\>
-\</p\>
-
-### 3\. DataFrame Operations
-
-> Applying mathematical functions across numeric columns.
-
-\<p align="center"\>
-\<img src="Screenshots/s3.png" alt="DataFrame Operations" width="800"\>
-\</p\>
-
-### 4\. Handling Missing Data
-
-> Identifying and safely resolving null values in the dataset.
-
-\<p align="center"\>
-\<img src="Screenshots/s4.png" alt="Missing Data" width="800"\>
-\</p\>
-
-### 5\. Statistical Overviews
-
-> Generating an instant statistical breakdown of the dataset metrics.
-
-\<p align="center"\>
-\<img src="Screenshots/s5.png" alt="Statistics" width="800"\>
-\</p\>
-
-### 6\. Data Visualization
-
-> Creating informative charts like Bar plots and Scatter plots directly from the terminal prompt.
-
-\<p align="center"\>
-\<img src="Screenshots/s6.png" alt="Visualization Example" width="800"\>
-\</p\>
-
-_(Additional Visualization Views)_
-
-\<p align="center"\>
-\<img src="Screenshots/s7.png" alt="Visualization Example 2" width="800"\>
-\</p\>
-
-### 7\. Exporting and Exiting
-
-> Successfully saving a plot locally and gracefully exiting the application.
-
-\<p align="center"\>
-\<img src="Screenshots/s8.png" alt="Saving Plot" width="800"\>
-\</p\>
+4️⃣ Follow menu options step-by-step
 
 ---
 
-**Developed by Devan Patel**
+## 🧠 Working Flow
 
-```
+✔️ Load dataset
+✔️ Explore data
+✔️ Perform operations
+✔️ Handle missing values
+✔️ Generate statistics
+✔️ Create visualization
+✔️ Save output
 
-```
+---
+
+## 📸 Screenshots
+
+### 🔹 Main Menu
+
+![s1](Screenshots/s1.png)
+
+### 🔹 Dataset Loaded
+
+![s2](Screenshots/s2.png)
+
+### 🔹 Data Exploration
+
+![s3](Screenshots/s3.png)
+
+### 🔹 DataFrame Operations
+
+![s4](Screenshots/s4.png)
+
+### 🔹 Missing Data Handling
+
+![s5](Screenshots/s5.png)
+
+### 🔹 Visualization Output
+
+![s6](Screenshots/s6.png)
+
+### 🔹 Save Visualization
+
+![s7](Screenshots/s7.png)
+
+---
+
+## 📊 Example Output
+
+✔️ Statistical summary
+✔️ Missing data report
+✔️ Bar chart visualization
+
+---
+
+## 🎯 Purpose of Project
+
+This project is designed to:
+
+✔️ Practice **Data Analysis concepts**
+✔️ Understand **Pandas operations**
+✔️ Learn **Data Visualization**
+✔️ Build a **menu-driven Python application**
+
+---
+
+## 💡 Future Improvements
+
+✨ Add GUI (Tkinter / Web App)
+✨ Add more chart types
+✨ Support multiple datasets
+✨ Add filters & advanced analysis
+
+---
+
+## 🙌 Conclusion
+
+This project is a complete beginner-friendly tool to understand how **data analysis works step-by-step** using Python.
+
+---
+
